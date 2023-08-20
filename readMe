@@ -1,0 +1,8 @@
+VSCode에서 git으로 연동하는 연습을 하였음
+
+내용은 fetch에 대한 것이며, 프론트 엔드에서 외부 api로부터 데이터를 받을 수 있는 코드인 것 같음
+참고로 api는 전통적으로 엘든링 api인
+
+https://eldenring.fanapis.com/api/bosses?limit=20&page=3
+
+이거를 사용.
