@@ -21,6 +21,15 @@ fetch("https://eldenring.fanapis.com/api/bosses?limit=20&page=3").then((response
 });
 
 
+
 //fetch는 내장 함수임. 엘든링 프로젝트도 이거대로 하면 될듯
 //이 fetch는 promise 객체를 반환하므로, then이나 catch를 사용할 것
 
+const printing = () =>{ console.log("hoo yah")};
+
+module.exports ={
+    moduleName: `for you`,
+    printing: printing,
+}
+
+//node.js의 CommonJS 방식의 모듈화 기능 사용해봄, ex2에서 사용
